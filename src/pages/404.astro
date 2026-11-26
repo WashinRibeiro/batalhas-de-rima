@@ -1,0 +1,11 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+export const prerender = true;
+---
+<BaseLayout title="Página não encontrada | Batalhas de Rima" description="A página que você procura não foi encontrada.">
+  <main id="conteudo" class="grid min-h-screen place-content-center px-6 text-center">
+    <p class="text-sm uppercase tracking-[.3em] text-[var(--signal)]">Erro 404</p>
+    <h1 class="mt-4 text-6xl font-black">Fora do round.</h1>
+    <a class="mt-8 text-[var(--signal)] underline" href="/">Voltar ao início</a>
+  </main>
+</BaseLayout>
